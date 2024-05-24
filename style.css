@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: orange;
+  color: white;
+}
+
+.main {
+  background-color: hsl(0, 0%, 100%, 0.5);
+  box-shadow: 0 0 10px hsl(0, 0%, 0%, 0.5);
+  height: 70vh;
+  width: 80vmin;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.imgContainer {
+  /* width: 100%; */
+  height: 92%;
+  position: absolute;
+  display: flex;
+  transition: 1s;
+  left: 0;
+}
+
+.btnContainer {
+  width: 100%;
+  height: 8%;
+  bottom: 0;
+  position: absolute;
+  background-color: whitesmoke;
+}
+.btn {
+  position: absolute;
+  width: 49%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  cursor: pointer;
+}
+#next {
+  right: 0;
+}
+
+.img {
+  width: 80vmin;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+#img1 {
+  background-image: url("img/1546_Autumn_Beauty_2_2.jpg");
+}
+#img2 {
+  background-image: url("img/1810_Nice_Place_2.jpg");
+}
+#img3 {
+  background-image: url("img/1830_Cool_Scene_2\ copy.JPG");
+}
+#img4 {
+  background-image: url("img/7706_Vista_Leaves_2.jpg");
+}
+#img5 {
+  background-image: url("img/8006_Vista-Field_2.jpg");
+}
